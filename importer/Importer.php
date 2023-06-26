@@ -8,10 +8,10 @@ class Importer
     {
         global $wpdb;
         $this->wpdb = $wpdb;
-        $this->getAccoutCredentials();
+        $this->setAccountsCredentials();
     }
 
-    private function getAccoutCredentials()
+    private function setAccountsCredentials()
     {
         $credentials_result = $this->wpdb->get_results("SELECT * FROM wp_otomoto_credentials", ARRAY_A);
         $credentials_result = array_map(function ($row) {
@@ -38,9 +38,9 @@ class Importer
                 // Update post
                 $post_id = wp_update_post([
                     'ID' => $advert['id'],
-                    'post_title' => $advert['title'],
+                    'post_title' => OtomotoAPI::scrapeTitleFromURL($advert['url']),
                     'post_content' => $advert['description'],
-                    'post_status' => 'publish',
+                    'post_status' => $advert['status'] === 'active' ? 'publish' : 'draft',
                     'post_author' => 1,
                     'post_type' => 'samochod',
                 ]);
@@ -109,6 +109,42 @@ class Importer
             }
         }
         return false;
+    }
+
+    // Save data to json file
+    static function saveData($data)
+    {
+        $file = fopen(OTOMOTO_IMPORTER_PLUGIN_DIR . 'data.json', 'w');
+        fwrite($file, json_encode($data));
+        fclose($file);
+    }
+
+    static function createNewAdvert($advert)
+    {
+        // Check if the advert has all the necessary details
+        if (isset($advert['id'], $advert['title'], $advert['description'])) {
+            if($advert['status'] === "active"){
+                $otomoto_title = OtomotoAPI::scrapeTitleFromURL($advert['url']);
+                $title = $otomoto_title ? $otomoto_title : null;
+            }
+            
+            $post_id = wp_insert_post([
+                'post_title' => ($title !== null) ? $title : $advert['title'],
+                'post_content' => $advert['description'],
+                'post_status' => $advert['status'] === 'active' ? 'publish' : 'draft',
+                'post_author' => 1,
+                'post_type' => 'samochod',
+            ]);
+
+            // You can extend this part to add more metadata or taxonomy related details to your post.
+            // For example, adding metadata like this:
+            // add_post_meta($post_id, 'meta_key', 'meta_value', true);
+            
+            // And then return the post ID
+            return $post_id;
+        } else {
+            throw new Exception('Advert details are incomplete.');
+        }
     }
 }
 

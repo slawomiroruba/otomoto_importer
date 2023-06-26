@@ -8,12 +8,12 @@ Author: Sławomir Oruba
 
 // Strona ustawień
 require plugin_dir_path(__FILE__) . '/setup/setting-page.php';
-
+require plugin_dir_path(__FILE__) . '/importer/Logger.php';
 require plugin_dir_path(__FILE__) . '/importer/MetaBoxTools.php';
-require plugin_dir_path(__FILE__) . '/importer/OtomotoAPI.php';
 require plugin_dir_path(__FILE__) . '/importer/Advert.php';
 require plugin_dir_path(__FILE__) . '/importer/HttpClient.php';
 require plugin_dir_path(__FILE__) . '/importer/Importer.php';
+require plugin_dir_path(__FILE__) . '/importer/OtomotoAPI.php';
 
 // Define plugin constants
 define('OTOMOTO_IMPORTER_PLUGIN_DIR', plugin_dir_path(__FILE__));

@@ -1,4 +1,4 @@
-<?php 
+<?php
 class OtomotoAPI
 {
   private $client_id = '1366';
@@ -35,7 +35,8 @@ class OtomotoAPI
       CURLOPT_HTTPHEADER => array(
         'User-Agent: ' . $this->user_agent,
       ),
-    ));
+    )
+    );
 
     $response = curl_exec($curl);
     curl_close($curl);
@@ -66,7 +67,8 @@ class OtomotoAPI
       CURLOPT_HTTPHEADER => array(
         'User-Agent: bok@proformat.pl',
       ),
-    ));
+    )
+    );
 
     $response = curl_exec($curl);
     curl_close($curl);
@@ -108,7 +110,8 @@ class OtomotoAPI
         'Content-Type: application/json',
         'Authorization: Bearer ' . $this->access_token,
       ),
-    ));
+    )
+    );
 
     $response = curl_exec($curl);
     curl_close($curl);
@@ -116,7 +119,8 @@ class OtomotoAPI
     return json_decode($response, true);
   }
 
-  public function isUserAuthenticaded(){
+  public function isUserAuthenticaded()
+  {
     return $this->access_token !== '';
   }
 
@@ -154,7 +158,8 @@ class OtomotoAPI
         'Content-Type: application/json',
         'Authorization: Bearer ' . $this->access_token
       ),
-    ));
+    )
+    );
 
     $response = curl_exec($curl);
     curl_close($curl);
@@ -184,7 +189,8 @@ class OtomotoAPI
         'Content-Type: application/json',
         'Authorization: Bearer ' . $this->access_token
       ),
-    ));
+    )
+    );
 
     $response = curl_exec($curl);
     curl_close($curl);
@@ -195,29 +201,31 @@ class OtomotoAPI
 
   }
 
-  public function scrapeTitleFromURL($url)
+  static function scrapeTitleFromURL($url)
   {
-    $html_code = HttpClient::getRequest($url);
-    $html = str_get_html($html_code);
-    $titleElement = $html->find('span.offer-title', 0);
+    if (!function_exists('str_get_html')) {
+      require_once OTOMOTO_IMPORTER_PLUGIN_DIR . 'importer/simple_html_dom.php';
+    }
 
-    // Usuwanie znacznika div o klasie "tags"
-    $tags = $titleElement->find('div.tags', 0);
-    if ($tags) {
+    $html_code = HttpClient::getRequest($url);
+    if (!$html_code)
+      return null;
+
+    $html = str_get_html($html_code);
+    if (!$html)
+      return null;
+
+    $titleElement = $html->find('span.offer-title', 0);
+    if (!$titleElement)
+      return null;
+
+    if ($tags = $titleElement->find('div.tags', 0)) {
       $tags->outertext = '';
     }
 
-    // Zwracanie tekstu bez znacznika div o klasie "tags"
-    $title = trim($titleElement->plaintext);
-    return $title;
+    return ($title = trim($titleElement->plaintext)) ? $title : null;
   }
 }
-function saveJsonToFile($json, $filename)
-  {
-    $file = fopen($filename, 'w');
-    fwrite($file, $json);
-    fclose($file);
-  }
 
 $otomoto = new OtomotoAPI('wrobud@kiauzywane.pl', 'Uzyw@ne2022!!!');
 // var_dump($otomoto->getActiveAdverts());

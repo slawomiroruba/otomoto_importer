@@ -176,7 +176,7 @@ function save_adverts_to_csv()
     $all_adverts = array();
     // If are any credentials saved do foreach loop and create OtomotoAPI object for each credential
     foreach ($credentials as $credential) {
-        var_dump($credential);
+        // var_dump($credential);
         $otomoto = new OtomotoAPI($credential['login'], $credential['password']);
         if($otomoto->isUserAuthenticaded()){
             $userAdvertsArray = $otomoto->getAllUserAdverts();
@@ -185,49 +185,24 @@ function save_adverts_to_csv()
         }
     }
 
-    // Save $all_adverts to csv file
-    $file = fopen(OTOMOTO_IMPORTER_PLUGIN_DIR . '/adverts.csv', 'w');
+    // Importer::saveData($all_adverts);
 
     // Check if $all_adverts is not empty
     if (!empty($all_adverts)) {
+        
         // Get the first element to extract the headers
         $firstAdvert = reset($all_adverts);
         $headers = array_keys($firstAdvert);
-        fputcsv($file, $headers);
 
         // Now loop through $all_adverts to write each advert data to the CSV file
         foreach ($all_adverts as $advert) {
-            // Clean up the description field
-            if (isset($advert['description'])) {
-                // Replace new lines with | and commas with , 
-                $advert['description'] = str_replace(array("\n", "\r", ","), array("|", "|", "%"), $advert['description']);
-            }
-
-            if (isset($advert['params'])) {
-                if(isset($advert['params']['features'])){
-                    
-                }
-                foreach ($advert['params'] as $key => $value) {
-                    $advert[$key] = $value['value'];
-                }
-                
-            }
-
-            // If $advert value is an array, serialize it
-            foreach ($advert as $key => $value) {
-                if (is_array($value)) {
-                    $advert[$key] = serialize($value);
-                }
-            }
-            fputcsv($file, $advert);
+            Importer::createNewAdvert($advert);
         }
     }
 
-    // Close the file after writing
-    fclose($file);
-
     echo '<div class="notice notice-success is-dismissible"><pre>Adverts successfully saved to CSV.</pre></div>';
 }
+
 
 
 // Dodaj na końcu swojego pliku pluginu:

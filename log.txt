@@ -1,0 +1,245 @@
+Creating new advert with ID: 6111221931 and title: 1.5T-GDI 160KM 6MT, M, 2 kpl. opon, FV23%, 2 szt. and otomoto title: Kia Ceed 1.5 T-GDI M
+Creating new advert with ID: 6111220705 and title: 1.0T 100KM 6MT, M+SMT, 2 kpl. opon, FV23% and otomoto title: Kia Stonic 1.0 T-GDI M
+Creating new advert with ID: 6102154940 and title: 1.6 GDI 141 KM 6DCT PHEV, Business Line+ AEB, FV23% and otomoto title: Kia Ceed 1.6 GDI PHEV L Business Line DCT
+Creating new advert with ID: 6110237159 and title: 1.6 CRDi MHEV 136 KM 6iMT, L, 2 kpl. opon and otomoto title: Kia Ceed 1.6 CRDi mHEV L
+Creating new advert with ID: 6111121076 and title: 2.0GDi 205KM 6AT, XL, PL, FV23%- niebawem w ofercie. and otomoto title: Kia Optima Plug-in Hybrid
+Creating new advert with ID: 6110093891 and title: 1.5T-GDI 160KM 6MT Wersja: L+AEB, 2 kpl. opon and otomoto title: Kia XCeed 1.5 T-GDI L
+Creating new advert with ID: 6105517457 and title: 1.6 GDI 141 KM 6DCT, L+AEB, FV23%, 2 szt. and otomoto title: Kia XCeed
+Creating new advert with ID: 6110790185 and title: 1.0 MPI 67 KM 5 MT, M, PL and otomoto title: Kia Picanto 1.0 M
+Creating new advert with ID: 6107902435 and title: 1.2 84 KM 5 MT, M+SMT+15 ALU, PL, FV23%, 2 kpl. opon and otomoto title: Kia Stonic 1.2 M
+Creating new advert with ID: 6109058077 and title: 1.2 84 KM 5 MT Wersja: M+ SMT+ Zestaw_Naprawczy, FV23% and otomoto title: Kia Stonic 1.2 M
+Creating new advert with ID: 6111221931 and title: 1.5T-GDI 160KM 6MT, M, 2 kpl. opon, FV23%, 2 szt. and otomoto title: 
+Creating new advert with ID: 6111220705 and title: 1.0T 100KM 6MT, M+SMT, 2 kpl. opon, FV23% and otomoto title: Kia Stonic 1.0 T-GDI M
+Creating new advert with ID: 6102154940 and title: 1.6 GDI 141 KM 6DCT PHEV, Business Line+ AEB, FV23% and otomoto title: Kia Ceed 1.6 GDI PHEV L Business Line DCT
+Creating new advert with ID: 6110237159 and title: 1.6 CRDi MHEV 136 KM 6iMT, L, 2 kpl. opon and otomoto title: Kia Ceed 1.6 CRDi mHEV L
+Creating new advert with ID: 6111121076 and title: 2.0GDi 205KM 6AT, XL, PL, FV23%- niebawem w ofercie. and otomoto title: Kia Optima Plug-in Hybrid
+Creating new advert with ID: 6110093891 and title: 1.5T-GDI 160KM 6MT Wersja: L+AEB, 2 kpl. opon and otomoto title: Kia XCeed 1.5 T-GDI L
+Creating new advert with ID: 6105517457 and title: 1.6 GDI 141 KM 6DCT, L+AEB, FV23%, 2 szt. and otomoto title: Kia XCeed
+Creating new advert with ID: 6110790185 and title: 1.0 MPI 67 KM 5 MT, M, PL and otomoto title: Kia Picanto 1.0 M
+Creating new advert with ID: 6107902435 and title: 1.2 84 KM 5 MT, M+SMT+15 ALU, PL, FV23%, 2 kpl. opon and otomoto title: Kia Stonic 1.2 M
+Creating new advert with ID: 6109058077 and title: 1.2 84 KM 5 MT Wersja: M+ SMT+ Zestaw_Naprawczy, FV23% and otomoto title: Kia Stonic 1.2 M
+Creating new advert with ID: 6108917347 and title: 1.6 T-GDI 265 KM 6 AT AWD, GT-Line+ opcje, max. wyposażenie, FV23% and otomoto title: 
+Creating new advert with ID: 6108975766 and title: 1.0 T-GDI 120 KM 6 MT, S, PL, FV23%, opony zima! and otomoto title: Kia Ceed 1.0 T-GDI S
+Creating new advert with ID: 6106650099 and title: 1.5 T-GDI 160 KM 6 MT, GT-LINE+ PNS, 2 kpl. opon, FV23% and otomoto title: Kia XCeed 1.5 T-GDI GT-Line
+Creating new advert with ID: 6110788818 and title: 1.5T-GDI 160KM 7DCT, Prestige Line, FV23% and otomoto title: Kia XCeed 1.5 T-GDI Prestige Line DCT
+Creating new advert with ID: 6110788199 and title: 1.5 T-GDI 160 KM 6 MT, BUSINESS LINE, fv23% and otomoto title: Kia XCeed 1.5 T-GDI L Business Line
+Creating new advert with ID: 6109610989 and title: 229 KM 77,4 kWh RWD, PLUS+PK02+PK03+PK04+PK05+MER+HP and otomoto title: Kia EV6
+Creating new advert with ID: 6110691715 and title: 1.5T-GDI 160KM 6MT, L+AEB, 2 kpl. opon and otomoto title: Kia XCeed 1.5 T-GDI L
+Creating new advert with ID: 6110506541 and title: 204 KM 64 kWh 452 km, M +NAV+ WIN, FV23% and otomoto title: 
+Creating new advert with ID: 6104087888 and title: 1.2DOHC 84KM 5MT + LPG, M, FV23%, Gwarancja 3 lata and otomoto title: Kia Rio
+Creating new advert with ID: 6110385662 and title: 1.4 100 KM 6 MT, M+DFRA, PL and otomoto title: 
+Creating new advert with ID: 6107029891 and title: 1.6 GDI 141 KM 6DCT PHEV, L+AEB, FV23%, 2 kpl. opon and otomoto title: Kia XCeed
+Creating new advert with ID: 6109051178 and title: 1.2 84 KM 5 MT, M+ SMT, PL and otomoto title: 
+Creating new advert with ID: 6108946204 and title: 2.0 120 KM 6 MT, ENSO, PL and otomoto title: 
+Creating new advert with ID: 6110132683 and title: 1.6T-GDI 150KM 6MT FWD, M+SMT, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6108947510 and title: 1.2 DPI 84 KM 5 MT, GTLINE+ AEB, PL, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6110037141 and title: 1.2 DPI 84 KM 5 MT, L+BL1+2TR, PL, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6109990181 and title: 1.2 84 KM 5 MT, M+SMT+15 ALU, FV23% and otomoto title: 
+Creating new advert with ID: 6108734051 and title: 1.6 T-GDI 230 KM 6 AT FWD, Business Line, PL. FV23% and otomoto title: 
+Creating new advert with ID: 6108754486 and title: 1.6T-GDI 150KM 6MT FWD Wersja: M+SMT, FV23% and otomoto title: 
+Creating new advert with ID: 6109688031 and title: 1.6T-GDI 150KM 6MT FWD Wersja: M+SMT, PL, FV23% and otomoto title: 
+Creating new advert with ID: 6108487937 and title: 1.6GDI 135KM 6MT, L + BL + FUN, 2kpl opon, Gwarancja and otomoto title: 
+Creating new advert with ID: 6106940360 and title: 1.6 T GDI 180 KM 7 DCT, L+ NAV, FV23%, PL and otomoto title: 
+Creating new advert with ID: 6109013919 and title: 1.2 84 KM 5 MT, M+SMT+15"ALU, FV23%, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6108922028 and title: 1.5 T-GDI 160 KM 6 MT, GT-Line+PRE+AEB, FV23% and otomoto title: 
+Creating new advert with ID: 6108792301 and title: 2.2 CRDI 200KM 6AT, GT line + TEC + PNS and otomoto title: 
+Creating new advert with ID: 6108791037 and title: 1.2 84 KM 5 MT, M+SMT, FV23%, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6106441538 and title: 1.6 GDI 141 KM 6 DCT, Business Line, FV23%, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6099739020 and title: 2.0CRDI 185KM 6MT 4WD, L+FN1, PL, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6106072186 and title: 1.6 GDI 141 KM 6DCT PHEV, Business Line, FV23% and otomoto title: 
+Creating new advert with ID: 6106962646 and title: 204 KM 64.8 kWh 460 km, L+TEC+HP, FV23%, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6104958825 and title: 1.6T-GDI 180KM 7DCT AWD, Bl+Lth+Har+Aeb+Ae+, FV23% and otomoto title: 
+Creating new advert with ID: 6102154045 and title: 1.6T-GDI 204KM 7DCT, GT- Full opcja, Gwarancja, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6104227588 and title: 1.4 140KM 6MT, ENJOY + pakiety + koła zimowe, PL! and otomoto title: 
+Creating new advert with ID: 6105120741 and title: 1.6T-GDI 6AT FWD HEV, GT-line+HAR+AE+, FV23%, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6106978318 and title: 1.7 CRDI 141 KM 7 DCT, XL + TEC + hak + koła, PL and otomoto title: 
+Creating new advert with ID: 6105694116 and title: 1.5T-GDI 160KM 6MT, Gt-Line+PRE+TEC+AEB+PNS, FV23% and otomoto title: 
+Creating new advert with ID: 6106901758 and title: 1.2DOHC 84 KM 5MT, M+SMT, niski przebieg!, PL and otomoto title: 
+Creating new advert with ID: 6106680248 and title: 325 KM 77,4 kWh AWD, EV6 GT LINE+PK04+PK05+HP, niebawem w sprzedaży! and otomoto title: 
+Creating new advert with ID: 6105695486 and title: 1.6T-GDI 150KM 6MT FWD, M+SMT, FV23%- rezerwacja and otomoto title: 
+Creating new advert with ID: 6104288708 and title: 1.0T-GDI 100KM 6MT, L, FV 23%, 2 kpl. opon and otomoto title: 
+Creating new advert with ID: 6104193891 and title: 1.6GDI 141KM 6DCT, L, FV23%, PL and otomoto title: 
+Creating new advert with ID: 6105136173 and title: 2.0CRDI AWD 183KM 6AT, L, PL and otomoto title: 
+Creating new advert with ID: 6102917690 and title: 1.6 CRDi MHEV 136 KM 6MT, S, FV 23%, 2 kpl. opon, 3 szt. and otomoto title: 
+Creating new advert with ID: 6106015862 and title: 1.4 DOHC 100 KM 6 MT, M+FUN, PL, Gwarancja! and otomoto title: 
+Creating new advert with ID: 6102763822 and title: 1.2 PURETECH 100KM 8AT, Allure Pack + Podgrzewane fotele, 2022! and otomoto title: 
+Creating new advert with ID: 6104546947 and title: 2.0CRDI 185KM 6AT 4WD 7 os. / BUSINESS LINE PLUS / 2 kpl. kół and otomoto title: 
+Creating new advert with ID: 6103398264 and title: 1.6T-GDI 177KM 2WD 7DCT, Business line plus, FV23% and otomoto title: 
+Creating new advert with ID: 6102516869 and title: 1.6 GDI 141 KM 6DCT Phev, XL+Aeb+Pns, FV23% and otomoto title: 
+Creating new advert with ID: 6104584109 and title: 1.6GDI 132KM 6MT, Style, PL and otomoto title: 
+Creating new advert with ID: 6104228210 and title: 1.6GDI 141KM 6DCT, wersja L+WIN, FV 23%, PL and otomoto title: 
+Creating new advert with ID: 6104245486 and title: 1.6CRDi MHEV 136KM 6MT Wersja: S, FV23%, 2 kpl. opon! and otomoto title: 
+Creating new advert with ID: 6104229234 and title: 1.6 GDI 141 KM 6DCT PHEV, XL+AEB+ PNS, FV23%, PL and otomoto title: 
+Creating new advert with ID: 6100308737 and title: 1.0T-GDI 120KM 6MT, BL+ Omega Guard, FV23%, pakiet serwisowy! and otomoto title: 
+Creating new advert with ID: 6102517887 and title: 1.2 5MT 84KM 5MT, L+BL1, PL, FV23% and otomoto title: 
+Creating new advert with ID: 6103401051 and title: 1.5T-GDI 160KM 6MT, L, FV23%, PL and otomoto title: 
+Creating new advert with ID: 6100458590 and title: 1.6SCe 115KM 5MT, LIFE+ czujniki + koła zimowe, PL and otomoto title: 
+Creating new advert with ID: 6100308573 and title: 1.2 130KM 6MT, INNOVATION, PL, FV23% and otomoto title: 
+Creating new advert with ID: 6109415418 and title: Trocadero 1.2 130 KM and otomoto title: DS Automobiles DS 4 1.2 PureTech Trocadero
+Creating new advert with ID: 6108243256 and title: 1.2 130 KM Cross Trocadero and otomoto title: DS Automobiles DS 4 1.2 PureTech Cross Trocadero
+Creating new advert with ID: 6110241739 and title: E-Tense 225 KM Esprit de Voyage Plug-In and otomoto title: DS Automobiles DS 4
+Creating new advert with ID: 6110241166 and title: 1.5 BlueHDi 130 Automat Rivoli and otomoto title: DS Automobiles DS 7 Crossback 1.5 BlueHDi Rivoli
+Creating new advert with ID: 6105639481 and title: Nowy DS 7 E-Tense 300 4X4 OPERA and otomoto title: DS Automobiles DS 7 Crossback 1.6 E-Tense 4x4 Opera
+Creating new advert with ID: 6110974896 and title: Ostatnie sztuki benzyny !!! and otomoto title: DS Automobiles DS 7 Crossback 1.6 PureTech Rivoli
+Creating new advert with ID: 6109997064 and title: 1.6 180 KM Performance line + skóra and otomoto title: DS Automobiles DS 4 1.6 PureTech Performance Line +
+Creating new advert with ID: 6105002751 and title: Ostatnie sztuki z silnikiem bezynowym !!! Mega rabat !!! and otomoto title: DS Automobiles DS 7 Crossback 1.6 PureTech GPF Performance Line +
+Creating new advert with ID: 6105095572 and title: Ostatnie sztuki benzyny !!! and otomoto title: DS Automobiles DS 7 Crossback 1.6 PureTech GPF Performance Line +
+Creating new advert with ID: 6107812181 and title: E-Tense 360 KM 4x4 Opera and otomoto title: DS Automobiles DS 7 Crossback 1.6 E-Tense 4x4 Opera
+Creating new advert with ID: 6110837455 and title: 1.6 E-Tense 250 KM 2WD Rivoli + and otomoto title: DS Automobiles DS 9
+Creating new advert with ID: 6110760964 and title: 1.6 E-TENSE Esprit de Voyage 300KM 4x4 and otomoto title: 
+Creating new advert with ID: 6106128403 and title: 360 KM Nowy DS 7 E-Tense 4X4 OPERA and otomoto title: DS Automobiles DS 7 Crossback 1.6 E-Tense 4x4 Opera
+Creating new advert with ID: 6110470667 and title: Demo 1.2 130 KM Automat Trocadero and otomoto title: 
+Creating new advert with ID: 6109451394 and title: E-Tense Opera and otomoto title: DS Automobiles DS 3 Crossback E-Tense Rivoli
+Creating new advert with ID: 6108308839 and title: 1.2 130 KM Performance Line and otomoto title: DS Automobiles DS 4 1.2 PureTech Performance Line
+Creating new advert with ID: 6108306944 and title: 1.2 130 KM Performance Line and otomoto title: DS Automobiles DS 4 1.2 PureTech Performance Line
+Creating new advert with ID: 6108306638 and title: 1.2 130 KM Performance Line and otomoto title: DS Automobiles DS 4 1.2 PureTech Performance Line
+Creating new advert with ID: 6109444419 and title: Trocadero 1.2 130 KM and otomoto title: DS Automobiles DS 4 1.2 PureTech Trocadero
+Creating new advert with ID: 6108305978 and title: 1.2 130 KM Performance Line and otomoto title: DS Automobiles DS 4 1.2 PureTech Performance Line
+Creating new advert with ID: 6106144072 and title: L4H3 2,2 BlueHDi 165 KM bogate wyposażenie OD RĘKI and otomoto title: Peugeot Boxer
+Creating new advert with ID: 6110740875 and title: L4H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: Peugeot Boxer
+Creating new advert with ID: 6110740687 and title: L4H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: Peugeot Boxer
+Creating new advert with ID: 6107751842 and title: 1,5 BlueHDi 100 KM długi OD RĘKI and otomoto title: Peugeot Partner
+Creating new advert with ID: 6102925626 and title: 1,5 BlueHDi 130 KM długi and otomoto title: 
+Creating new advert with ID: 6108550601 and title: L4H3 2,2 BlueHDi 165 KM Brygadówka 7 msc and otomoto title: Peugeot Boxer
+Creating new advert with ID: 6108791744 and title: 2,2 BlueHDi 165 KM Doka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6106807955 and title: L4H2 2,2 BlueHDi 165 KM Brygadówka 7 msc odbiór połowa marca and otomoto title: 
+Creating new advert with ID: 6106807803 and title: L3H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6106807665 and title: L4H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6106802054 and title: L3H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108949036 and title: L1H1 2,2 BlueHDi 140 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108672882 and title: L3H2 2,2 BlueHDi 140 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108671515 and title: L3H2 2,2 BlueHDi 140 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6102648944 and title: L3H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104813191 and title: L3H2 2,2 BlueHDi 140 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6105645553 and title: L2H2 2,2 BlueHDi 165 KM OD RĘKI bogate wyposażenie and otomoto title: 
+Creating new advert with ID: 6102926813 and title: Long 3 miejsca 2,0 BlueHDi 145 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104677583 and title: Brygadowy Long 6 miejsc 2,0 BlueHDi 145 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6098518701 and title: rama do zabudowy 2,2 BlueHDi 165 KM Doka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104709860 and title: 2,2 BlueHDi 165 KM Doka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6097358048 and title: L4H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104814097 and title: L4H2 2,2 BlueHDi 140 KM 9 miejscowy and otomoto title: 
+Creating new advert with ID: 6104813851 and title: L4H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104813383 and title: L4H2 2,2 BlueHDi 140 KM OD RĘKI bogate wyposażenie and otomoto title: 
+Creating new advert with ID: 6104813600 and title: L4H2 2,2 BlueHDi 140 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6100545477 and title: 1,2 PureTech 110 KM 6 biegów DEMO and otomoto title: 
+Creating new advert with ID: 6104811642 and title: L2H2 2,2 BlueHDi 140 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104676720 and title: Long 3 miejsca 2,0 BlueHDi 145 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6104676103 and title: Brygadowy Long 6 miejsc 2,0 BlueHDi 180 KM EAT8 OD RĘKI and otomoto title: 
+Creating new advert with ID: 6102866413 and title: 1,5 BlueHDi 130 KM Automat 8 biegów krótki OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108950405 and title: podwójna kabina 2,2 BlueHDi 165 KM 7 miejsc skrzynia otwarta OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108949308 and title: L4H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108610713 and title: L4H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108857501 and title:  and otomoto title: 
+Creating new advert with ID: 6108612428 and title: L3H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6108611628 and title: L3H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6107843020 and title:  and otomoto title: 
+Creating new advert with ID: 6099071199 and title: L3H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6107690490 and title: 1,5 BlueHDi 130 KM EAT8 Shine DEMO and otomoto title: 
+Creating new advert with ID: 6106288221 and title: podwójna kabina + skrzynia 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6106287699 and title: L4H3 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6099594131 and title: Brygadówka 6 miejsc XL 2,0 BlueHDi 145 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6096750892 and title: L4H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6099071540 and title: L3H2 2,2 BlueHDi 165 KM Brygadówka 7 miejsc OD RĘKI and otomoto title: 
+Creating new advert with ID: 6096745632 and title: L4H2 2,2 BlueHDi 165 KM OD RĘKI and otomoto title: 
+Creating new advert with ID: 6105137079 and title: 2,0 BlueHDi 180 KM Automat 8 biegów Długość średnia M OD RĘKI and otomoto title: 
+Creating new advert with ID: 6109648895 and title: Business Line Plus - samochód " od ręki " and otomoto title: Kia Ceed 1.5 T-GDI L Business Line Plus
+Creating new advert with ID: 6109649031 and title: Wersja GT-LINE. Dostępna " Od ręki " and otomoto title: Kia Ceed 1.5 T-GDI GT-Line
+Creating new advert with ID: 6110545664 and title: Business Line PLUS oraz Pakiet Bezpieczeństwa. *Od ręki* and otomoto title: Kia XCeed 1.5 T-GDI L Business Line DCT
+Creating new advert with ID: 6110544733 and title: GT-Line w pięknej wiśni. Dostępny " od ręki " and otomoto title: Kia Pro_cee'd ProCeed 1.5 T-GDI GT Line DCT
+Creating new advert with ID: 6110543805 and title: Wersja " L " dostępna od ręki. Automat 7DCT and otomoto title: Kia Sportage 1.6 T-GDI MHEV L 2WD DCT
+Creating new advert with ID: 6110543757 and title: Wersja wyposażenia M. Odbiór w 2 tygodnie. RÓŻNE KOLORY and otomoto title: Kia Ceed 1.5 T-GDI M
+Creating new advert with ID: 6110543650 and title: Business Line w oliwkowym kolorze. Odbiór w połowie czerwca! and otomoto title: Kia Rio 1.2 L Business Line
+Creating new advert with ID: 6110543545 and title: Wersja M + Pakiet Smart + Pakiet Bezpieczeństwa &quot; od ręki &quot; and otomoto title: Kia Stonic 1.0 T-GDI M
+Creating new advert with ID: 6109643391 and title: Pełna hybryda 230KM. 3 kolory do wyboru. " Od ręki " and otomoto title: Kia Sportage 1.6 T-GDI HEV L 2WD
+Creating new advert with ID: 6109642633 and title: Business Line 7DCT - 180KM. Dostępny " od ręki " and otomoto title: Kia Sportage 1.6 T-GDI MHEV Business Line 2WD DCT
+Creating new advert with ID: 6110065217 and title: DIESEL w Business Line+pakiet bezpieczeństwa+panorama and otomoto title: 
+Creating new advert with ID: 6107132235 and title: Odbiór w ciągu miesiąca. Wyprodukowana KIA Picanto and otomoto title: 
+Creating new advert with ID: 6109649236 and title: Business Line + Pakiet Premium. Odbiór auta po majówce! and otomoto title: 
+Creating new advert with ID: 6109650587 and title: Wersja M. Odbiór auta po majówce! and otomoto title: 
+Creating new advert with ID: 6109688849 and title: 1.0T 120 KM 6MT MHEV L+BL1 MHEV od ręki ! and otomoto title: 
+Creating new advert with ID: 6109670844 and title: GT-LINE+LTH2+PNS+HAR+AE+ ( Full opcja ) od ręki ! and otomoto title: 
+Creating new advert with ID: 6105064654 and title: Solidne wyposażenie. Pojazd dostępny " na wczoraj" Automat and otomoto title: 
+Creating new advert with ID: 6105063840 and title: *OD RĘKI*. Business Line oraz Pakiet Bezpieczeństwa and otomoto title: 
+Creating new advert with ID: 6107597173 and title: Ostatnie egzemplarze wersji " L " and otomoto title: 
+Creating new advert with ID: 6107529460 and title: *OD RĘKI* YUCCA STEEL GREY. Business Line w automacie 7DCT and otomoto title: 
+Creating new advert with ID: 6107528572 and title: *OD RĘKI* Experience Green. Business Line w automacie 7DCT and otomoto title: 
+Creating new advert with ID: 6106304602 and title: " OD RĘKI " Wersja Business Line + Pakiet Premium + kolor do wyboru and otomoto title: 
+Creating new advert with ID: 6104271009 and title: *OD RĘKI* Business Line + Pakiet Premium. 2 kolory do wyboru and otomoto title: 
+Creating new advert with ID: 6106302156 and title: * OD RĘKI * Niro EV. Wersja XL + pompa ciepła and otomoto title: 
+Creating new advert with ID: 6105064168 and title: *OD RĘKI*. Business Line Plus. Automatyczna skrzynia biegów and otomoto title: 
+Creating new advert with ID: 6103161436 and title: * OD RĘKI * Wersja M + pakiet Smart + Machined Bronze and otomoto title: 
+Creating new advert with ID: 6103126490 and title: Ostatnie egzemplarze wersji " L " and otomoto title: 
+Creating new advert with ID: 6103121145 and title: *OD RĘKI* GT-Line w automacie. Tech+AEB+A18+lakier and otomoto title: 
+Creating new advert with ID: 6098097897 and title: * OD RĘKI *. M + Smart + 4 kolory do wyboru! and otomoto title: 
+Creating new advert with ID: 6103160639 and title: *OD RĘKI* Wentylowane fotele, pakiet premium i panorama. Beżowy środek and otomoto title: 
+Creating new advert with ID: 6105097001 and title: Odbiór w styczniu. AWD, Sorento 5-cio miejscowe and otomoto title: 
+Creating new advert with ID: 6105063362 and title: *OD RĘKI* Business Line + pakiet bezpieczeństwa and otomoto title: 
+Creating new advert with ID: 6104842708 and title: *OD RĘKI* 7DCT Business Line + Pakiet Bezpieczeństwa and otomoto title: 
+Creating new advert with ID: 6103761815 and title: * OD RĘKI * Automatyczna skrzynia biegów. Wersja &quot; L &quot; and otomoto title: 
+Creating new advert with ID: 6104841952 and title: * OD RĘKI * Kia Niro Hybrid. Business Line + felgi 18" and otomoto title: 
+Creating new advert with ID: 6104841352 and title: *OD RĘKI* Ceed SW w Business Line and otomoto title: 
+Creating new advert with ID: 6104841086 and title: * OD RĘKI * GT-Line + Panoramiczny dach and otomoto title: 
+Creating new advert with ID: 6101063972 and title: *OD RĘKI* Prestige Line + Szklany dach + Nappa and otomoto title: 
+Creating new advert with ID: 6104269763 and title: * OD RĘKI * Business Line wraz z dachem panoramicznym and otomoto title: 
+Creating new advert with ID: 6104269557 and title: * OD RĘKI * Business Line Plus oraz 2 kolory do wyboru! and otomoto title: 
+Creating new advert with ID: 6100959454 and title: *Od ręki*. Wersja GT - REZERWACJA and otomoto title: 
+Creating new advert with ID: 6110915786 and title:  and otomoto title: Peugeot Rifter e-Rifter Allure
+Creating new advert with ID: 6110914666 and title:  and otomoto title: 
+Creating new advert with ID: 6110914402 and title:  and otomoto title: Peugeot 208 1.2 PureTech Allure S&S EAT8
+Creating new advert with ID: 6110914010 and title:  and otomoto title: Peugeot 3008 1.2 PureTech GT S&S EAT8
+Creating new advert with ID: 6110913790 and title:  and otomoto title: 
+Creating new advert with ID: 6110913272 and title:  and otomoto title: Peugeot 3008 1.2 PureTech GT S&S EAT8
+Creating new advert with ID: 6110449031 and title:  and otomoto title: Peugeot 3008 1.2 PureTech Allure Pack S&S
+Creating new advert with ID: 6109413504 and title:  and otomoto title: Peugeot 408 1.2 PureTech GT S&S EAT8
+Creating new advert with ID: 6108435741 and title:  and otomoto title: Peugeot 308 1.6 Hybrid GT EAT8
+Creating new advert with ID: 6108436128 and title:  and otomoto title: Peugeot 2008 1.5 BlueHDi GT S&S EAT8
+Creating new advert with ID: 6106274359 and title:  and otomoto title: Peugeot 508
+Creating new advert with ID: 6108363919 and title:  and otomoto title: Peugeot 408 1.2 PureTech Allure Pack S&S EAT8
+Creating new advert with ID: 6099544223 and title: Hybrid4 360 KM Phev Sport Engineered and otomoto title: Peugeot 508
+Creating new advert with ID: 6102718463 and title:  and otomoto title: Peugeot 2008 1.2 PureTech Allure Pack S&S EAT8
+Creating new advert with ID: 6109413972 and title:  and otomoto title: Peugeot 208 1.2 PureTech Allure Pack S&S
+Creating new advert with ID: 6104755140 and title:  and otomoto title: 
+Creating new advert with ID: 6108361424 and title:  and otomoto title: 
+Creating new advert with ID: 6104754563 and title:  and otomoto title: 
+Creating new advert with ID: 6102793934 and title:  and otomoto title: 
+Creating new advert with ID: 6108363486 and title:  and otomoto title: 
+Creating new advert with ID: 6105764056 and title:  and otomoto title: 
+Creating new advert with ID: 6105787621 and title: Nowy Peugeot 408 - wersja limtowana First Edition - ograniczona ilość and otomoto title: 
+Creating new advert with ID: 6109367687 and title: Citroen C3 1.2 Puretech 110 KM Shine DEMO!!! and otomoto title: Citroën C3 1.2 PureTech GPF Shine S&S
+Creating new advert with ID: 6102397195 and title: 1.5 BHDI130 C-Series, Bogata Wersja Dostępny od Ręki! and otomoto title: Citroën C5 Aircross 1.5 BlueHDi C-Series
+Creating new advert with ID: 6109095915 and title: 1.6 Puretech 225 PHEV SHINE Facelift, Bogata wersja DEMO! and otomoto title: Citroën C5 Aircross 1.6 PHEV Shine EAT8
+Creating new advert with ID: 6104805108 and title: SHINE 1.6 225KM Automat PHEV DEMO, Bogata Wersja, Dostępy od Ręki! and otomoto title: Citroën C5X
+Creating new advert with ID: 6109092594 and title: SHINE PACK 1.6 Puretech 180KM Automat DEMO Bogata Wersja! and otomoto title: Citroën C5X
+Creating new advert with ID: 6104803433 and title: eC4 Shine Demo, Bogata Wersja dostępna od ręki! and otomoto title: Citroën C4 Shine
+Creating new advert with ID: 6107868049 and title: 1.2 Puretech 130KM EAT8 SHINE PACK Bogata Wersja! and otomoto title: Citroën C4X
+Creating new advert with ID: 6107867800 and title: 1.2 Puretech 130KM EAT8 SHINE PACK Bogata Wersja! and otomoto title: Citroën C4X
+Creating new advert with ID: 6108925328 and title: 1.6 Hybryda 225 EAT8 Shine Pack, Bogata wersja DEMO Od Ręki! and otomoto title: Citroën C5 Aircross 1.6 PHEV Shine Pack EAT8
+Creating new advert with ID: 6103610622 and title: Citroen C3 1.2 Puretech 110KM Shine od ręki!!! and otomoto title: Citroën C3 1.2 PureTech GPF Shine S&S
+Creating new advert with ID: 6110834346 and title: Citroen C3 1.2 Puretech 83KM Shine od ręki!!! and otomoto title: 
+Creating new advert with ID: 6108886791 and title: eC4X Shine Demo, Bogata Wersja Nowość! and otomoto title: Citroën C4X
+Creating new advert with ID: 6108881702 and title: eC4 Feel DEMO dostępny od ręki! and otomoto title: Citroën C4 e-C4 Feel
+Creating new advert with ID: 6108884158 and title: 1.5 BHDI 130 C-Series Facelift, Bogata wersja DEMO! and otomoto title: Citroën C5 Aircross 1.5 BlueHDi C-Series
+Creating new advert with ID: 6108887578 and title: 1.2 Puretech 110KM SHINE PACK, Bogata Wersja DEMO! and otomoto title: Citroën C3 Aircross 1.2 PureTech GPF Shine Pack S&S
+Creating new advert with ID: 6108736991 and title: 1.2 Puretech 130 EAT6 RIP CURL, Bogata Wersja Dostępny od Ręki! and otomoto title: Citroën C3 Aircross 1.2 PureTech GPF Rip Curl S&S EAT6
+Creating new advert with ID: 6109446311 and title: 1.2 Puretech 130KM EAT8 SHINE Bogata Wersja Od Ręki! and otomoto title: Citroën C5X
+Creating new advert with ID: 6109468955 and title: Citroen C3 1.2 Puretech 83KM Shine od ręki!!! and otomoto title: 
+Creating new advert with ID: 6099537012 and title: 1.2 Puretech 130 EAT8 Shine Pack Facelift, Bogata wersja DEMO! and otomoto title: 
+Creating new advert with ID: 6108886058 and title: SHINE Pack 1.6 225KM Automat PHEV DEMO Bogata Wersja! and otomoto title: 
+Creating new advert with ID: 6109611048 and title: 1.2 PureTech 130KM EAT8 Automat Shine, Bogata Wersja Dostępny od Ręki! and otomoto title: 
+Creating new advert with ID: 6109468700 and title: 1.5 BHDI 130KM EAT8 Automat Shine, Bogata Wersja Dostępny od Ręki! and otomoto title: 
+Creating new advert with ID: 6102385479 and title: Citroen C3 1.2 Puretech 83KM Shine od ręki!!! and otomoto title: 
+Creating new advert with ID: 6108952899 and title: 1.2 PureTech 130KM EAT8 Automat Shine, Bogata Wersja Dostępny od Ręki! and otomoto title: 
+Creating new advert with ID: 6108880762 and title: Citroen C4 1.5 BHDI 130KM EAT8 Shine bogata wersja od Ręki!!! and otomoto title: 
+Creating new advert with ID: 6098556051 and title: Citroen C3 Automat 110KM Shine!!! and otomoto title: 
+Creating new advert with ID: 6107867516 and title: 1.2 Puretech 130KM EAT8 SHINE OD RĘKI! and otomoto title: 
+Creating new advert with ID: 6103611804 and title: Citroen C3 1.2 Puretech 110KM Automat Shine od ręki!!! and otomoto title: 
+Creating new advert with ID: 6107355589 and title: 1.5 BHDI 130 EAT8 Shine Facelift, Bogata wersja! and otomoto title: 
+Creating new advert with ID: 6104090958 and title: SHINE 1.6 180KM Automat, Bogata Wersja, Dostępy od Ręki! and otomoto title: 
+Creating new advert with ID: 6104152943 and title: Citroen C4 1.2 Puretech 130KM EAT8 Feel Pack DEMO!!! and otomoto title: 
+Creating new advert with ID: 6099537452 and title: Citroen C3 1.2 Puretech 83KM Shine od ręki!!! and otomoto title: 
+Creating new advert with ID: 6102534215 and title: Citroen C4 1.2 Puretech 130KM EAT8 Shine bogata wersja!!! and otomoto title: 
+Creating new advert with ID: 6104852816 and title: 1.2 Puretech 130 EAT6 SHINE, Bogata Wersja Dostępny od Ręki! and otomoto title: 
+Creating new advert with ID: 6104801780 and title: 1.2 PureTech 130KM EAT8 Shine, Bogata wersja od Ręki! and otomoto title: 
+Creating new advert with ID: 6104153636 and title: 1.2 PureTech 130KM EAT8 Shine, Bogata wersja od Ręki! and otomoto title: 
+Creating new advert with ID: 6103602849 and title: SHINE 1.6 180KM Automat, Bogata Wersja, Dostępy od Ręki! and otomoto title: 
+Creating new advert with ID: 6104053076 and title: 1.5 BHDI 130KM C-Series, Bogata wersja od Ręki! and otomoto title: 
