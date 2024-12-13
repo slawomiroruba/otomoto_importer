@@ -88,6 +88,9 @@ function get_adverts_from_otomoto_and_save_json()
     // Pobieranie tablicy z danymi uwierzytelniającymi
     $credentials = otomoto_importer_get_saved_credentials();
 
+    // Usuń z credentials wszystko oprócz klucza 4
+    $credentials = array_slice($credentials, 3, 1);
+
     // Wyjątek jeśli nie ma zapisanych żadnych danych logowania
     if (empty($credentials)) {
         return_error('Brak zapisanych danych logowania OtoMoto.', $ajax);
@@ -97,64 +100,57 @@ function get_adverts_from_otomoto_and_save_json()
     $categories_ids = array();
     $sync_info      = array();
 
-    if (OTOMOTO_USE_LOCAL_JSON) {
-        $all_adverts_path = OTOMOTO_IMPORTER_PLUGIN_DIR . '/importer/all_adverts.json';
-        if (file_exists($all_adverts_path)) {
-            $all_adverts = json_decode(file_get_contents($all_adverts_path), true);
+    foreach ($credentials as $credential) {
+        $login    = $credential['login'] ?? '';
+        $password = $credential['password'] ?? '';
+
+        if (empty($login) || empty($password)) {
+            log_incorrect_credentials($credential['login'] ?? 'nieznany');
+            continue;
         }
-    } else {
-        foreach ($credentials as $credential) {
-            $login    = $credential['login'] ?? '';
-            $password = $credential['password'] ?? '';
 
-            if (empty($login) || empty($password)) {
-                log_incorrect_credentials($credential['login'] ?? 'nieznany');
-                continue;
+        // Obiekt API OtoMoto dla danego użytkownika
+        $otomoto = new OtomotoAPI($login, $password);
+
+        // Sprawdź czy użytkownik jest zalogowany
+        if ($otomoto->isUserAuthenticated()) {
+            $userAdvertsArray = $otomoto->getAllUserAdverts();
+            $userAdverts      = $userAdvertsArray['results'] ?? array();
+
+            // Informacje o synchronizacji
+            $sync_info[$login] = array(
+                'total'    => count($userAdverts),
+                'active'   => count(array_filter($userAdverts, static fn($a) => $a['status'] === 'active')),
+                'inactive' => count(array_filter($userAdverts, static fn($a) => $a['status'] !== 'active')),
+            );
+
+            // Przetworzenie ogłoszeń
+            foreach ($userAdverts as &$advert) {
+                $category_id   = $advert['category_id'] ?? null;
+                $category_name = $category_id ? $otomoto->getCategoryNameById($category_id) : null;
+                $advert['category_name']  = $category_name;
+                $advert['username']       = $login;
+                $advert['credential_id']  = $credential['id'] ?? null;
+
+                if ($category_id && !in_array($category_id, $categories_ids, true)) {
+                    $categories_ids[] = $category_id;
+                }
+            }
+            unset($advert); // czyszczenie referencji
+
+            // Dodawanie do $all_adverts tylko unikalnych ogłoszeń
+            foreach ($userAdverts as $newAdvert) {
+                $newAdvertId = $newAdvert['id'] ?? null;
+                if ($newAdvertId && !array_filter($all_adverts, fn($ea) => $ea['id'] === $newAdvertId)) {
+                    $all_adverts[] = $newAdvert;
+                }
             }
 
-            // Obiekt API OtoMoto dla danego użytkownika
-            $otomoto = new OtomotoAPI($login, $password);
-
-            // Sprawdź czy użytkownik jest zalogowany
-            if ($otomoto->isUserAuthenticated()) {
-                $userAdvertsArray = $otomoto->getAllUserAdverts();
-                $userAdverts      = $userAdvertsArray['results'] ?? array();
-
-                // Informacje o synchronizacji
-                $sync_info[$login] = array(
-                    'total'    => count($userAdverts),
-                    'active'   => count(array_filter($userAdverts, static fn($a) => $a['status'] === 'active')),
-                    'inactive' => count(array_filter($userAdverts, static fn($a) => $a['status'] !== 'active')),
-                );
-
-                // Przetworzenie ogłoszeń
-                foreach ($userAdverts as &$advert) {
-                    $category_id   = $advert['category_id'] ?? null;
-                    $category_name = $category_id ? $otomoto->getCategoryNameById($category_id) : null;
-                    $advert['category_name']  = $category_name;
-                    $advert['username']       = $login;
-                    $advert['credential_id']  = $credential['id'] ?? null;
-
-                    if ($category_id && !in_array($category_id, $categories_ids, true)) {
-                        $categories_ids[] = $category_id;
-                    }
-                }
-                unset($advert); // czyszczenie referencji
-
-                // Dodawanie do $all_adverts tylko unikalnych ogłoszeń
-                foreach ($userAdverts as $newAdvert) {
-                    $newAdvertId = $newAdvert['id'] ?? null;
-                    if ($newAdvertId && !array_filter($all_adverts, fn($ea) => $ea['id'] === $newAdvertId)) {
-                        $all_adverts[] = $newAdvert;
-                    }
-                }
-
-                // Zapis sync_info do pliku JSON
-                save_json_file($sync_info, OTOMOTO_IMPORTER_PLUGIN_DIR . '/importer/sync_info.json');
-            } else {
-                // Logowanie błędu z niepoprawnymi danymi uwierzytelniającymi
-                log_incorrect_credentials($login);
-            }
+            // Zapis sync_info do pliku JSON
+            save_json_file($sync_info, OTOMOTO_IMPORTER_PLUGIN_DIR . '/importer/sync_info.json');
+        } else {
+            // Logowanie błędu z niepoprawnymi danymi uwierzytelniającymi
+            log_incorrect_credentials($login);
         }
     }
 
