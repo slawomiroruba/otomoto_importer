@@ -1,0 +1,123 @@
+# Wykluczanie wszystkich plików .txt, .json i .csv
+*.txt
+*.json
+*.csv
+
+# Wykluczanie folderów systemowych
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Wykluczanie folderów i plików tymczasowych
+tmp/
+temp/
+*.log
+*.cache
+*.bak
+*.backup
+
+# Wykluczanie plików specyficznych dla systemów operacyjnych
+*.swp
+*.swo
+*.swn
+*.lock
+
+# Wykluczanie plików i folderów specyficznych dla IDE
+# Visual Studio Code
+.vscode/
+
+# PHPStorm / IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Wykluczanie zależności i plików build
+vendor/
+node_modules/
+bower_components/
+dist/
+build/
+public/build/
+
+# Wykluczanie plików konfiguracyjnych środowiskowych
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Wykluczanie plików cache WordPress
+wp-content/cache/
+wp-content/backups/
+wp-content/uploads/cache/
+wp-content/uploads/backups/
+
+# Wykluczanie plików kompozytora
+composer.lock
+
+# Wykluczanie plików instalacyjnych
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Wykluczanie plików dokumentacji
+docs/
+documentation/
+
+# Wykluczanie plików tymczasowych edytorów
+*.tmp
+*.temp
+
+# Wykluczanie plików projektów
+*.sln
+*.vcxproj
+*.csproj
+
+# Wykluczanie plików multimedialnych
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.mp4
+*.mp3
+*.wav
+*.mov
+
+# Wykluczanie innych niepotrzebnych plików
+*.bak
+*.old
+*.orig
+*.save
+
+# Dodatkowe wykluczenia dla WordPress
+wp-content/upgrade/
+wp-content/plugins/hello.php
+wp-content/plugins/akismet/
+
+# Wykluczanie plików tłumaczeń (opcjonalne)
+*.mo
+*.po
+
+# Ignorowanie plików specyficznych dla testów
+/tests/
+phpunit.xml
+phpunit.xml.dist
+
+# Ignorowanie plików specyficznych dla Continuous Integration
+/.github/
+/.travis.yml
+.circleci/

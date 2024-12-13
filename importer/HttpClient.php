@@ -1,6 +1,8 @@
 <?php 
 class HttpClient
 {
+    private static $max_attempts = 30;  // Maksymalna liczba prób
+
     public static function getRequest($url)
     {
         if (empty($url)) {
@@ -20,22 +22,30 @@ class HttpClient
             "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.3"
         ]);
 
-        $response = curl_exec($ch);
+        $attempts = 0;
+        do {
+            $response = curl_exec($ch);
+            $error = curl_errno($ch);
+            $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-        if (curl_errno($ch)) {
-            $error_msg = curl_error($ch);
-            curl_close($ch);
-            throw new Exception("Error during request: $error_msg");
-        }
+            if (!$error && $http_code < 400) {
+                // Jeśli żądanie jest pomyślne, kończymy próby i zwracamy odpowiedź
+                curl_close($ch);
+                return $response;
+            }
 
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            // Jeśli wystąpił błąd lub kod odpowiedzi HTTP jest >= 400, zwiększamy liczbę prób
+            $attempts++;
+        } while ($attempts <= self::$max_attempts);
+
+        $error_msg = curl_error($ch);
         curl_close($ch);
 
-        if ($http_code >= 400) {
-            throw new Exception("HTTP error: $http_code, url: $url, response: $response");
-        }
-
-        return $response;
+        // Jeśli po wielu próbach żądanie nadal nie jest pomyślne, zwracamy błąd
+        // Error log 
+        error_log("Error while making request to $url. Error message: $error_msg");
+        return false;
     }
 }
+
 ?>

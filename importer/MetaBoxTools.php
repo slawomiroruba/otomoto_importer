@@ -32,7 +32,7 @@ class MetaBoxTools
                 post_id int(11) NOT NULL,
                 PRIMARY KEY  (id)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;";
-            $wpdb->query($sql);    
+            $wpdb->query($sql);
         }
 
         // Pobranie listy kolumn z custom table
@@ -113,13 +113,60 @@ class MetaBoxTools
     {
         // Deserializacja tablicy z postaci stringa
         $data = unserialize($string);
-        
+
         // Tworzenie tablicy z wartościami tablicy asocjacyjnej
         $array = array();
         foreach ($data as $index => $value) {
             $array[$index] = $value;
         }
-        
+
         return $array;
     }
+
+    /**
+     * Wstawia lub aktualizuje wartości pól w tabeli. Jeżeli kolumna o danej nazwie nie istnieje, tworzy ją.
+     *
+     * @param string $table_name Nazwa tabeli.
+     * @param array $fields Tablica asocjacyjna z nazwami pól jako klucze i ich wartościami jako wartości.
+     * @return bool True, jeśli dane zostały wstawione lub zaktualizowane; w przeciwnym razie false.
+     */
+    public static function insert_or_update_fields($table_name, $post_id, $fields)
+    {
+        global $wpdb;
+
+        // Sprawdzenie, czy tabela istnieje w bazie danych
+        $table_exists = self::is_table_exists($table_name);
+
+        // Jeśli tabela nie istnieje, rzucamy wyjątek
+        if (!$table_exists) {
+            throw new Exception("Tabela {$table_name} nie istnieje w bazie danych.");
+        }
+
+        // Pobranie listy kolumn z tabeli
+        $columns = $wpdb->get_col("SHOW COLUMNS FROM {$table_name}", 0);
+
+        $data = array();
+        foreach ($fields as $field_key => $field_value) {
+            // Sprawdzenie, czy kolumna istnieje w tabeli
+            if (!in_array($field_key, $columns)) {
+                // Tworzenie brakującej kolumny
+                $wpdb->query("ALTER TABLE {$table_name} ADD `{$field_key}` VARCHAR(255)");
+            }
+            $data[$field_key] = $field_value;
+        }
+
+        // Wstawienie lub aktualizacja rekordu w tabeli
+        $existing_record = $wpdb->get_var("SELECT ID FROM {$table_name} WHERE ID = {$post_id}");
+
+        if ($existing_record) {
+            // Aktualizacja rekordu
+            return $wpdb->update($table_name, $data, array('ID' => $post_id));
+        } else {
+            // Wstawienie nowego rekordu
+            $data['ID'] = $post_id;
+            return $wpdb->insert($table_name, $data);
+        }
+    }
+
+
 }
